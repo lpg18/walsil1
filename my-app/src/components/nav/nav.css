@@ -1,0 +1,164 @@
+.nav-container {
+  position: fixed;
+  left: 5%;
+  top: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav {
+  background: rgba(0, 0, 0, 0.3);
+  display: grid;
+  gap: 0.8rem;
+  padding: 0.7rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+.nav a {
+  background: transparent;
+  padding: 0.2rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+.scroll-invitation {
+  position: fixed;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2vh;
+}
+
+.scroll-invitation__text2 {
+  color: var(--color-light);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.scroll-invitation__text1 {
+  display: none;
+}
+
+.scroll-invitation__svg {
+  width: 24px;
+  height: 42px;
+  transform: rotateX(0deg);
+}
+
+.scroll-invitation__svg-line {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: animatePath 3s linear infinite;
+  fill: white;
+}
+
+.scroll-invitation__svg path:first-child {
+  fill: white;
+}
+
+
+
+@keyframes animatePath {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  25% {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+
+  75% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/*----------------------media queries (medium devices)-------------*/
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/*----------------------media queries (small devices)-------------*/
+
+@media screen and (max-width: 720px) {
+  .nav-container {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+  }
+
+  .nav a {
+    flex: 1;
+  }
+
+  .scroll-invitation {
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2vh;
+  }
+
+  .scroll-invitation__svg{
+    transform: rotateX(180deg);
+  }
+
+  .scroll-invitation__text2 {
+    display: none;
+  }
+
+  .scroll-invitation__text1 {
+  color: var(--color-light);
+  font-size: 0.9rem;
+  text-align: center;
+  display: block;
+}
+
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+}
