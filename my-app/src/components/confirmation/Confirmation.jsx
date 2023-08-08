@@ -9,7 +9,7 @@ const Confirmation = () => {
   const buscarInvitados = () => {
     const nombre = document.getElementById('nombre').value.toLowerCase(); // Convertir a minúsculas
 
-    fetch('https://walsil-db1-arg.onrender.com/api/')
+    fetch('https://walsil-db1-arg.onrender.com/api/invitados/')
       .then((response) => response.json())
       .then((data) => {
         const invitados = data.data.filter(
@@ -32,7 +32,7 @@ const Confirmation = () => {
   };
 
   const mostrarFormulario = (nombre, apellido) => {
-    fetch('https://walsil-db1-arg.onrender.com/api/')
+    fetch('https://walsil-db1-arg.onrender.com/api/invitados/')
       .then((response) => response.json())
       .then((data) => {
         const invitado = data.data.find(
