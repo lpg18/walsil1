@@ -7,7 +7,17 @@ const Confirmation = () => {
   const [formularioVisible, setFormularioVisible] = useState(false);
 
   const buscarInvitados = () => {
-    const nombre = document.getElementById('nombre').value.toLowerCase(); // Convertir a minúsculas
+    const nombre = document.getElementById('nombre').value.toLowerCase(); 
+
+    if (nombre.trim() === '') {
+      alert('Por favor, ingresa un nombre válido para buscar.');
+      return;
+    }
+
+    if (nombre.length < 3) {
+      alert('Por favor, ingresa un nombre válido para buscar.');
+      return;
+    }
 
     fetch('https://walsil-db1-arg.onrender.com/api/invitados/')
       .then((response) => response.json())
@@ -28,6 +38,7 @@ const Confirmation = () => {
       })
       .catch((error) => {
         console.error('Error al obtener los datos del API:', error);
+        alert('El servicio por el momento no esta funcionando de manera correcta, intente dentro de unos minutos')
       });
   };
 
@@ -64,7 +75,6 @@ const Confirmation = () => {
     const gf = document.getElementById('txtGF').value;
     const anotaciones1 = document.getElementById('txtAnotaciones').value;
   
-    // Verificar campos obligatorios
     if (!nombre || !apellido || !telefono || !comida || !dni || !gf) {
       alert('Por favor, complete todos los campos obligatorios.');
       return;
@@ -96,7 +106,7 @@ const Confirmation = () => {
 
     fetch(url, options)
       .then(function () {
-        window.location.reload(); // Recargar la página
+        window.location.reload(); 
       })
       .catch((err) => {
         console.error(err);
@@ -109,7 +119,6 @@ const Confirmation = () => {
     const patenteValue = document.getElementById('txtPatente').value;
     const titularValue = document.getElementById('txtTitular').value;
   
-    // Verificar campos obligatorios
     if (!patenteValue || !titularValue) {
       alert('Por favor, complete todos los campos obligatorios.');
       return;

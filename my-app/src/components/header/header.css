@@ -16,3 +16,10 @@ header{
     width: 100vw;
     border: solid 3px red;
 }
+
+.header_container > h3{
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Great Vibes', cursive;
+    font-family: 'Pacifico', cursive; */
+   font-size: 4rem;
+}

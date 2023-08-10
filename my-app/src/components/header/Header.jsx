@@ -6,8 +6,8 @@ const Header = () => {
     <section id='header'>
       <div className="background_film">
         <div className="container header_container">
-          <h5>La Boda</h5>
-          <h5>de</h5>
+          <h3>La Boda</h3>
+          <h3>de</h3>
           <h1>Silvia y Walter</h1>
         </div>
       </div>

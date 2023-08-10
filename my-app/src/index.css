@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Pacifico&display=swap');
 
 *{
     margin: 0;
@@ -62,7 +63,8 @@ h1{
 section{
     height: max-content;
     min-height: 100VH;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.603), transparent, transparent, transparent, transparent, transparent, transparent,rgba(0, 0, 0, 0.603)); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.603),  transparent, transparent, transparent, transparent,rgba(0, 0, 0, 0.603));  */
+    margin: 2px 0;
 }
 
 section > h2, section > h5{
@@ -135,3 +137,5 @@ img{
         color: var(--color-light);
     }
 }
+
+
