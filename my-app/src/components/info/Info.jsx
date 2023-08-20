@@ -1,6 +1,6 @@
 import React from 'react';
 import './info.css';
-import './countdown.js';
+
 
 const Info = () => {
   return (
@@ -13,14 +13,10 @@ const Info = () => {
             </iframe>
           </div>
           <div className="text__content grid-item2">
-            <h3>Lugar</h3>
-            <h5>Descripción del lugar</h5>
-          
-          </div>
-          <div className="countdown__content grid-item2">
-            <div id="countdown">
-             
-            </div>
+            <h3>El lugar</h3>
+            <h5>Para poder ver en vivo y en directo cuando demos el ¡SI QUIERO! te invitamos a "El Mandala Multieventos"
+              cito en Dirección: Calle 133A N°4194, Ranelagh, Pdo. Berazategui. Provincia de Buenos Aires</h5>
+            <h4>CÓDIGO DE VESTIMENTA: ELEGANTE SPORT</h4>
           </div>
         </div>
       </div>

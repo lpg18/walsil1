@@ -1,0 +1,40 @@
+#gift{
+    background-image: url(../../assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.gift-title{
+    height: max-content;
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem !important;
+}
+
+.gift-title > h3{
+    font-size: 5rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.gift-text{
+    height: max-content;
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.gift-text > h5{
+    width: 100%;
+    font-size: 1.45rem;
+}

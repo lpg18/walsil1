@@ -1,22 +1,21 @@
 import React from 'react'
 import './about.css'
-// import ME from 'direccion'
 
 const About = () => {
   
   return (
     <section id="about">
       <div className='container about__container'>
-        <div className="about__img">
-          <div className='about__img-img'>
-            {/* <img src={ME} alt="" /> */}
-          </div>
-        </div>
         <div className="about__content">
+          <div className="empty"></div>
           <div className="about__cards">
-            <h3>¿Por qué queremos casarnos?</h3>
-            <h5>Con Sil nos seguimos conociendo hace 7 años y para seguir conociendonos vamos a dar el siguiente paso, luego de pensarlo ambos mucho tiempó y de que se alinien los planetas decidimos casarnos</h5>
-            <h6>Walter</h6>
+            <h6>Tenemos una gran noticia</h6>
+            <h5>Después de una "cortita" etapa de relación de 8 años (sin contar la previa de 2 años con idas y vueltas), pensamos que deberíamos formalizar nuestra situación. </h5>
+            <h5 id='h5middle'>¡¡NOS CASAMOS!!</h5>
+            <h5>¡Si! ¡señoras y señores, aunque Ud. no lo crea! vamos a dar el ¡SI QUIERO! el 16/12/2023 a las 20:15hs</h5>
+            <h5>Tenemos todo… el lugar, la comida, el chupe, la música, el show y hasta un par de enanos!</h5>
+            <h5>Pero nos falta lo más importante: ¡Contar con tu presencia en este día tan especial!</h5>
+            <h3>Walter y Silvia</h3>
           </div>
         </div>
       </div>

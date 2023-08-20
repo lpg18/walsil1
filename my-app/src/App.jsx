@@ -5,6 +5,8 @@ import About from './components/about/About.jsx'
 import Info from './components/info/Info.jsx'
 import Confirmation from './components/confirmation/Confirmation.jsx'
 import Contact from './components/contact/Contact.jsx'
+import Gift from './components/gift/Gift.jsx'
+import Drive from './components/drive-imgs/Drive.jsx'
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <About />
       <Info />
       <Confirmation />
+      <Drive />
+      <Gift />
       <Contact />
     </>
   )

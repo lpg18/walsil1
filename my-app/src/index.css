@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
 
 *{
     margin: 0;
@@ -13,7 +15,7 @@
 
 :root{
     --color-bg: #d6ccbb;  /* Beig claro */
-    --color-bg-variant: #ddd5c1;  /* Beig más oscuro */
+    --color-bg-variant: #ddd5c19c;  /* Beig más oscuro */
     --color-primary: #ff794c;  /* Pastel coral */
     --color-primary-variant: rgba(255, 140, 102, 0.4);  /* Variante pastel coral */
     --color-white: #000000;
@@ -64,7 +66,6 @@ section{
     height: max-content;
     min-height: 100VH;
     /* background: linear-gradient(rgba(0, 0, 0, 0.603),  transparent, transparent, transparent, transparent,rgba(0, 0, 0, 0.603));  */
-    margin: 2px 0;
 }
 
 section > h2, section > h5{
@@ -81,12 +82,18 @@ section > h2{
 }
 
 a{
-    color: var(--color-primary);
+    color: var(--color-white);
     transition: var(--transition);
+    background-color: var(--color-primary);
+    border: 1px solid transparent;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.5rem;
 }
 
 a:hover{
-    color: var(--color-white);
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
 }
 
 .btn{
