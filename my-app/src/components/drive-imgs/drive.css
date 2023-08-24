@@ -18,6 +18,14 @@ iframe {
     justify-content: center;
     margin: auto;
     margin-bottom: 2rem !important;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container-spotify > h3 {
+    margin: 2rem;
+    font-size: 1.75rem;
+    font-weight: bolder;
 }
 
 #btn-spotify {
@@ -55,4 +63,35 @@ iframe {
     text-align: center;
     padding: 2rem;
     gap: 0.5rem;
+}
+
+.container-hashtag > h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+}
+
+.container-hashtag > h5 {
+    font-size: 1.75rem;
+}
+
+.logo-ig{
+    width: max-content;
+    height: max-content;
+    font-size: 4rem;
+}
+
+.container-hashtag > a {
+    width: 15% !important;
+    height: 15% !important;
+    font-size: 1.5rem;
+}
+
+/*----------------------media queries (medium devices)-------------*/
+
+@media screen and (max-width: 1024px) {
+    .container-hashtag > a {
+        width: 50vw !important;
+        min-width: max-content !important;
+        font-size: 1.5rem;
+    }
 }

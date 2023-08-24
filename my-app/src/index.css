@@ -39,7 +39,6 @@ html, body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/arpillera.avif);
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
@@ -93,7 +92,8 @@ a{
 
 a:hover{
     background-color: transparent;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-white);
+    cursor: pointer;
 }
 
 .btn{

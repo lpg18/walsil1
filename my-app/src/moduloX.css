@@ -1,0 +1,77 @@
+#moduloX {
+    width: 100vw;
+    height: 100vh;
+}
+
+#moduloX > div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    width: 350px;
+}
+
+#img2-up{
+    transform: rotate(180deg);
+}
+
+.hall_container {
+    text-align: center;
+    width: 300px !important;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 20rem;
+    height: 220px !important;
+}
+
+.hall_container > h3{
+    z-index: 99;
+    font-size: 5rem;
+    position: relative;
+    bottom: 330px;
+}
+
+.cinta{
+    text-align: center;
+}
+
+.Y{
+    height: 300px !important;
+    overflow: visible;
+    position: relative;
+    bottom: 135px;
+    z-index: 0;
+}
+
+.Y > h1{
+    font-size: 18rem;
+    color: var(--color-primary);
+    height: 340px !important;
+    overflow: hidden;
+
+}
+
+.btn_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    z-index: 400;
+    padding: 0 0 0.75rem 0;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.btns > button{
+    background-color: var(--color-primary);
+    border-radius: 2rem;
+    padding: 0.75rem;
+    font-weight: bolder;
+    
+}

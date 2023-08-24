@@ -21,13 +21,6 @@
     margin-top: 5rem;
 }
 
-.header_container>h3 {
-    font-family: 'Dancing Script', cursive;
-    /* font-family: 'Great Vibes', cursive;
-    font-family: 'Pacifico', cursive; */
-    font-size: 4rem;
-}
-
 .countdown__content {
     background: var(--color-bg-variant);
     border: 1px solid transparent;

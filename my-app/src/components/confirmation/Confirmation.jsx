@@ -265,7 +265,7 @@ const Confirmation = () => {
                   <br />
                 </div>
                 <div className="button">
-                  <button type="button" id="btn1" onClick={capturar}>
+                  <button type="button" className="btn1" onClick={capturar}>
                     Guardar
                   </button>
                 </div>
@@ -289,7 +289,7 @@ const Confirmation = () => {
               <input type="text" name="txtTitular" id="txtTitular" />
             </div>
             <div className="grid-item long-item">
-              <button type="button" id="btn1" onClick={enviarPatente}>
+              <button type="button" className="btn1" onClick={enviarPatente}>
                 Subir datos
               </button>
             </div>

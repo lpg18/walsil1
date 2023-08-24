@@ -5,6 +5,9 @@ import { BsEnvelopeHeartFill } from 'react-icons/bs';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 import { GiConfirmed } from 'react-icons/gi';
 import { MdContactPhone } from 'react-icons/md';
+import { AiFillGift } from 'react-icons/ai';
+import { GoFileMedia } from 'react-icons/go';
+
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
@@ -35,7 +38,7 @@ const Nav = () => {
       previousActiveNav.classList.remove('active');
     }
     setActiveNav(navId);
-    document.activeElement.blur(); // Desenfoca el botón después de hacer clic
+    document.activeElement.blur(); 
   };
 
   return (
@@ -70,12 +73,27 @@ const Nav = () => {
           <GiConfirmed />
         </a>
         <a
+          href="#drive"
+          onClick={() => handleNavClick('#drive')}
+          className={activeNav === '#drive' ? 'active' : ''}
+        >
+          <GoFileMedia />
+        </a>      
+        <a
+          href="#gift"
+          onClick={() => handleNavClick('#gift')}
+          className={activeNav === '#gift' ? 'active' : ''}
+        >
+          <AiFillGift />
+        </a>
+        <a
           href="#contact"
           onClick={() => handleNavClick('#contact')}
           className={activeNav === '#contact' ? 'active' : ''}
         >
           <MdContactPhone />
         </a>
+
       </nav>
       <div className="scroll-invitation">
         <svg className="scroll-invitation__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 42">

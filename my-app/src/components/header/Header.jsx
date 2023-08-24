@@ -8,9 +8,6 @@ const Header = () => {
     <section id='header'>
       <div className="background_film">
         <div className="container header_container">
-          {/* <h3>La Boda</h3>
-          <h3>de</h3>
-          <h1>Silvia y Walter</h1> */}
           <img src={IMG1} alt="" />
         </div>
         <div className="countdown__content">
@@ -19,6 +16,7 @@ const Header = () => {
             </div>
           </div>
       </div>
+      
      
     </section>
   )

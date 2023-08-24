@@ -137,7 +137,7 @@
     margin: 1rem 0;
   }
   
-  #btn1 {
+  .btn1 {
     background: var(--color-primary);
     border: 1px solid transparent;
     border-radius: 1.5rem;
@@ -148,10 +148,10 @@
     margin-top: 15px;
   }
 
-#btn1:hover{
+.btn1:hover{
     background: transparent;
     border-color: var(--color-primary);
-    cursor: default;
+    cursor: pointer;
     color: var(--color-white);
 }
 

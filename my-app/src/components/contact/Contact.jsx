@@ -17,7 +17,7 @@ const Contact = () => {
               <BsWhatsapp className='wpp-icon'/>
               <h2>Silvia</h2>
             </div>
-            <a href="https://wa.me/5491154723055" className='href' target='_blank' without rel="noreferrer">Enviame un mensaje</a>
+            <a href="https://wa.me/5491154723055" className='href' target='_blank' rel="noreferrer">Enviame un mensaje</a>
           </div>
         </div>
         <div className='content__wpp'>
@@ -26,7 +26,7 @@ const Contact = () => {
               <BsWhatsapp className='wpp-icon'/>
               <h2>Walter</h2>
             </div>
-            <a href="https://wa.me/5491141795586" className='href' target='_blank' without rel="noreferrer">Enviame un mensaje</a>
+            <a href="https://wa.me/5491141795586" className='href' target='_blank' rel="noreferrer">Enviame un mensaje</a>
           </div>
         </div>
       </div>

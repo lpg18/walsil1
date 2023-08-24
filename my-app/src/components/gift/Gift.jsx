@@ -26,12 +26,12 @@ const Gift = () => {
                     <br></br>
                     ALIAS: MATE.SUELA.CLIMA
                     <br></br>
-                    CUIL: 20294967010
+                    CUIL: 20294967010
                 </h5>
                 <br></br>
                 <br></br>
                 <h5>Ante cualquier consulta te podes comunicar con nosotros via Whatsaapp haciendo click en los iconos que figuran debajo
-                    de nuestros nombres.
+                    de nuestros nombres.
                 </h5>
             </div>
 
