@@ -29,3 +29,9 @@
   align-items: center;
   font-size: 2.5rem;
 }
+
+@media screen and (max-width: 720px) {
+  .musicplayer{
+    margin: 1rem;
+  }
+}

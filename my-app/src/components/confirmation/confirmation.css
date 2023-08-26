@@ -1,7 +1,6 @@
 #confirmation {
     padding: 5rem 0rem;
     background-image: url(../../assets/wallpaperflare.com_wallpaper\ \(1\).jpg);
-    padding-bottom: 5rem;
   }
   
   .confirmation__container {
@@ -186,8 +185,10 @@
 /*----------------------media queries (small devices)-------------*/
 
 @media screen and (max-width: 720px) {
+    
     .confirmation__container{
         gap: 1%;
+        padding-bottom: 10rem;
     }
     .group__selector__content{
         grid-column: 1/span 2;
