@@ -10,6 +10,7 @@ import Drive from './components/drive-imgs/Drive.jsx';
 import MusicPlayer from './components/music-player/MusicPlayer.jsx';
 import IMG2 from './assets/Grupo_PopUpMusica-2.webp'
 import './moduloX.css'
+import Musica from '../src/assets/musica.mp3'
 
 const App = () => {
   const [showRemaining, setShowRemaining] = useState(false);
@@ -38,7 +39,7 @@ const App = () => {
 
   return (
     <>
-      {musicPlaying && <MusicPlayer musicSrc="ruta-de-tu-archivo-de-musica.mp3" />}
+      {musicPlaying && <MusicPlayer musicSrc={Musica} />}
 
       {showRemaining && componentsToRender}
       {!showRemaining && (
