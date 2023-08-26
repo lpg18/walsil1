@@ -66,13 +66,6 @@ const Nav = () => {
           <AiOutlineInfoCircle />
         </a>
         <a
-          href="#confirmation"
-          onClick={() => handleNavClick('#confirmation')}
-          className={activeNav === '#confirmation' ? 'active' : ''}
-        >
-          <GiConfirmed />
-        </a>
-        <a
           href="#drive"
           onClick={() => handleNavClick('#drive')}
           className={activeNav === '#drive' ? 'active' : ''}
@@ -92,6 +85,13 @@ const Nav = () => {
           className={activeNav === '#contact' ? 'active' : ''}
         >
           <MdContactPhone />
+        </a>
+        <a
+          href="#confirmation"
+          onClick={() => handleNavClick('#confirmation')}
+          className={activeNav === '#confirmation' ? 'active' : ''}
+        >
+          <GiConfirmed />
         </a>
 
       </nav>

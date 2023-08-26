@@ -21,10 +21,10 @@ const App = () => {
     <Nav key="nav" />,
     <About key="about" />,
     <Info key="info" />,
-    <Confirmation key="confirmation" />,
     <Drive key="drive" />,
     <Gift key="gift" />,
     <Contact key="contact" />,
+    <Confirmation key="confirmation" />,
   ];
 
   const handleEnterClick1 = () => {
