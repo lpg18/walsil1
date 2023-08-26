@@ -96,7 +96,7 @@ const Confirmation = () => {
     alert('Tu formulario fue enviado exitosamente.');
     console.log('Datos capturados:', invitado);
 
-    const url = `https://walsil-db1-arg.onrender.com/api/${invitadoSeleccionado.id}`;
+    const url = `https://walsil-db1-arg.onrender.com/api/invitados/${invitadoSeleccionado.id}`;
     const options = {
       body: JSON.stringify(invitado),
       method: 'PUT',
