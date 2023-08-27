@@ -7,7 +7,7 @@ const Contact = () => {
     <section id='contact'>
       <div className="container contact__container">
         <div className="head">
-          <h3>Ante cualquier consulta te podes comunicar con Walter o con Silvia</h3>
+          <h3>Ante cualquier consulta te podes comunicar con Silvia y Walter</h3>
           <h3>Via WhatsApp</h3>
           <h6>Haciendo click en los enlaces naranjas que dicen "Enviame un un mensaje"</h6>
         </div>

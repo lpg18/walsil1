@@ -25,16 +25,24 @@ const Drive = () => {
       </div>
       <div className="container container-hashtag">
         <h3>Compartimos este día junto a vos</h3>
-        <h5>Compartí tus fotos y videos de ese hermoso día</h5>
+        <h5>Seguinos en instagram</h5>
         <div className="logo-ig">
           <BsInstagram />
         </div>
+        <a
+          href="https://instagram.com/silywal23?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+          target='_blank'
+          rel="noreferrer"
+        >
+         @silywal23
+        </a>
+        <h5>Compartí tus fotos y videos de ese hermoso día</h5>
         <a
           href="https://www.instagram.com/explore/tags/silywal23/"
           target='_blank'
           rel="noreferrer"
         >
-          #silywal23
+         #silywal23
         </a>
       </div>
     </section>

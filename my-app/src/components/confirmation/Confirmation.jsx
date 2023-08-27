@@ -151,14 +151,14 @@ const Confirmation = () => {
         <div className="title long-item">
           <h1>Confirmación de asistencia</h1>
           <h4>
-            Ingresa solo tu nombre sin espacios y luego selecciona el usuario correspondiente para llenar el formulario.
+            Ingresa solo tu nombre, sin apellido, luego selecciona el usuario correspondiente para llenar el formulario.
             <br />
             Luego de llenarlo, haz clic dos veces en el botón "Guardar" para subir tus datos.
           </h4>
         </div>
         <div className="group__selector__content">
           <div className="fgroup__search">
-            <label htmlFor="nombre">Ingresa solo tu nombre sin espacios:</label>
+            <label htmlFor="nombre">Ingresa solo tu nombre:</label>
             <br />
             <input type="text" id="nombre" />
             <br />
@@ -277,7 +277,7 @@ const Confirmation = () => {
           <form className="grid-container">
             <div className="grid-item long-item">
               <h3>
-                En caso de que vengas con un vehículo personal, te pedimos que cargues la patente y la persona de referencia del vehículo para poder dejarlo en el recinto del salón.
+                En caso de que vengas con un vehículo personal, te pedimos que cargues la patente, el nombre y apellido de la persona de referencia del vehículo para poder dejarlo en el recinto del salón.
               </h3>
             </div>
             <div className="grid-item">
