@@ -15,7 +15,7 @@ const Drive = () => {
           allow="encrypted-media"
         ></iframe>
         <a
-          href="https://open.spotify.com/playlist/2N2KBI06YkAfhRU9GCyRwv?si=5ca215eb7d144177&pt=88e4864517f6bab35dffdde12b60f317"
+          href="https://open.spotify.com/playlist/2N2KBI06YkAfhRU9GCyRwv?si=b3389d31413145b4&pt=80c95528cd2ddfc297082005ff9a8ab7"
           id='btn-spotify'
           target='_blank'
           rel="noreferrer"
